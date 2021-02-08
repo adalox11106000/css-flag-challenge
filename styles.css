@@ -1,0 +1,71 @@
+body {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+  background-color: bisque;
+}
+.german {
+  width:320px;
+}
+.top {
+  background-color: black;
+  width: 320px;
+  height: 80px;
+}
+.mid {
+  background-color: red;
+  width: 320px;
+  height: 80px;
+}
+.botm {
+  background-color: yellow;
+  width: 320px;
+  height: 80px;
+}
+.german:hover .top {
+  background-color: red;
+}
+.german:hover .mid {
+  background-color: white;
+}
+.german:hover .botm {
+  background-color: green;
+}
+
+
+.french:hover .first {
+  background-color:green;
+}
+.french:hover .second {
+  background-color: white;
+}
+.french:hover .third {
+  background-color: orange;
+}
+
+
+.french {
+  margin-top: 40px;
+  /* display:grid;
+  column-gap: 0cm;
+  grid-template-columns: 33% 33% 33%; */
+  width:320px;
+}
+.first {
+  background-color: blue;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
+.second {
+  background-color: white;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
+.third {
+  background-color: red;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
